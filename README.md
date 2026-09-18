@@ -1,20 +1,20 @@
-Here's the revised and more detailed `README.md`, including a comprehensive list of required packages and a step-by-step guide to set up PostgreSQL:
-
----
-
 # Freeze: Video Content Search Engine
 
-**Freeze** is a video content search engine designed to analyze and extract insights from video files using advanced object detection and scene segmentation techniques. This tool leverages YOLO models for object recognition and Streamlit for an interactive web-based interface.
+**Freeze** is a video content search engine designed to analyze and extract insights from video using object detection, classification, and scene segmentation. The tool features an Apple Silicon-accelerated pipeline utilizing YOLO models and a Streamlit interactive interface.
+
+<img width="80%" alt="FREEZE-Poster-1" src="https://github.com/user-attachments/assets/1ba47d03-7971-4a39-8bae-3890f2d347e0" />
+
 
 ---
 
-## Features
+## Core Features
 
-- **Video Upload and Processing**: Upload video files and analyze them seamlessly.
-- **Object Detection**: Uses YOLOv8 for identifying objects in video frames.
+- **Video Upload and Processing**: Upload videos for automatic analysis.
+- **Object Detection**: YOLOv8 identifies objects in video frames.
+- ⭐️**Performance Optimization**⭐️: Apple Silicon-accelerated pipeline with PyTorch MPS and CoreML exports.
 - **Scene Segmentation**: Identifies scene changes using `scenedetect` for better content organization.
-- **Database Integration**: Saves video metadata to a PostgreSQL database for efficient querying and retrieval.
-- **Interactive Interface**: Streamlit-powered UI for uploading videos, viewing results, and interacting with the system.
+- **Database Integration**: Saves video metadata to a PostgreSQL database for querying and retrieval.
+- **Interactive Web Interface**: Streamlit-powered UI for uploading videos, viewing results, and interacting with the system.
 
 ---
 
@@ -128,15 +128,6 @@ DB_PASS = "user1password"
 
 ---
 
-## Usage
-
-- **Video Upload**: Upload your video for analysis.
-- **Object Detection**: Detect objects in each frame using YOLOv8.
-- **Scene Segmentation**: Identify scene changes using `scenedetect`.
-- **Database Storage**: Save and retrieve metadata via PostgreSQL.
-
----
-
 ## Directory Structure
 
 ```
@@ -161,14 +152,4 @@ DB_PASS = "user1password"
 
 ## Contributors
 
-- **Brittany** - Developer and Project Lead
-
----
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-Let me know if you need further refinements!
+- **Britt** - Developer and Project Lead
