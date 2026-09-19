@@ -8,8 +8,8 @@ import json
 import shutil
 
 # Load YOLO model
-MODEL_PATH = "yolo_models/YOLOv8x.pt"
-model = YOLO(MODEL_PATH)
+# MODEL_PATH = "yolo_models/YOLOv8x.pt"
+model = YOLO('yolov8x.pt')
 
 # Initialize database connection details (update with your credentials)
 DB_HOST = "localhost"
