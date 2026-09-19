@@ -112,8 +112,8 @@ DB_PASS = "user1password"
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/freeze-video-search-engine.git
-   cd freeze-video-search-engine
+   git clone git@github.com:brittho/freeze-video-vision.git
+   cd freeze-video-vision
    ```
 
 2. Download YOLOv8 weights:
