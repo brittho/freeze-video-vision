@@ -33,25 +33,6 @@ Install these required Python libraries:
 - `torch`: PyTorch library for backend computations.
 - `tqdm`: For progress bar display during video processing.
 
-Install all dependencies by running:
-
-```bash
-pip install -r requirements.txt
-```
-
-Here’s an example `requirements.txt` file:
-
-```
-streamlit
-ultralytics
-opencv-python-headless
-scenedetect
-psycopg2
-moviepy
-torch
-tqdm
-```
-
 ### Additional Tools
 
 - **PostgreSQL**: Database management system for storing video metadata.
