@@ -127,18 +127,9 @@ pixi --version
 5. Launch the Streamlit app:
    ```
    pixi shell
-   
-   ```
-   
-2. Download YOLOv8 weights:
-   Place the `YOLOv8x.pt` model in the `yolo_models/` directory.
-
-3. Launch the Streamlit app:
-   ```bash
    streamlit run streamlit3_location.py
    ```
-   
-4. Upload a video file in the app and view results, including object detections and scene transitions.
+4. Upload a video file in the app and view results.
 
 ---
 
