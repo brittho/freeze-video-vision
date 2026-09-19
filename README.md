@@ -107,6 +107,20 @@ DB_PASS = "user1password"
 ```
 
 ---
+## Pixi
+If you haven't installed Pixi, I recommend using it to manage your environment rather than the standard Python venv.
+> **Learn More:** [Read about latest Pixi, installation steps for Windows, and how it compares to other tools](https://pixi.prefix.dev/latest/).
+1. To install pixi on MacOS/Linux, run:
+```bash
+curl -fsSL https://pixi.sh/install.sh | bash
+```
+Restart your terminal.
+
+2. Confirm:
+```bash
+pixi --version
+```
+*(You should see the installed Pixi version printed in the terminal.)*
 
 ## Running the Application
 
