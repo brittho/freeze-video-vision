@@ -122,14 +122,33 @@ pixi --version
 ```
 *(You should see the installed Pixi version printed in the terminal.)*
 
-## Running the Application
+## Run the App
 
 1. Clone the repository:
    ```bash
    git clone git@github.com:brittho/freeze-video-vision.git
    cd freeze-video-vision
    ```
+2. Initialize a Pixi workspace:
+   ```bash
+   pixi init freeze-ws
+   cd freeze-ws
+   ```
+4. Add Your Dependencies:
+   ```
+   pixi add streamlit opencv ultralytics tqdm psycopg2 moviepy pytorch torchvision
+   ```
+   <img width="621" height="105" alt="image" src="https://github.com/user-attachments/assets/4d456547-d673-442f-906c-cd1e3a8c20a8" />
 
+   ```
+   pixi add --pypi scenedetect
+   ```
+5. Launch the Streamlit app:
+   ```
+   pixi shell
+   
+   ```
+   
 2. Download YOLOv8 weights:
    Place the `YOLOv8x.pt` model in the `yolo_models/` directory.
 
@@ -137,7 +156,7 @@ pixi --version
    ```bash
    streamlit run streamlit3_location.py
    ```
-
+   
 4. Upload a video file in the app and view results, including object detections and scene transitions.
 
 ---
