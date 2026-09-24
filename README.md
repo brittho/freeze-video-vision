@@ -2,6 +2,8 @@
 
 **Freeze** is a video content search engine designed to analyze and extract insights from video using object detection, classification, and scene segmentation. The tool features an Apple Silicon-accelerated pipeline utilizing YOLO models and a Streamlit interactive interface.
 
+[Quick Demo!](https://youtu.be/GRzs-hDzarE)
+
 <img width="80%" alt="FREEZE-Poster-1" src="https://github.com/user-attachments/assets/1ba47d03-7971-4a39-8bae-3890f2d347e0" />
 
 
